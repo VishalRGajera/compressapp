@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Compress app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was custom html with React Js.
 
 ## Available Scripts
 
