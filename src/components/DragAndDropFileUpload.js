@@ -139,7 +139,7 @@ const DragAndDropFileUpload = () => {
                                 <div className="file-item">
                                     <div  className={"progress-bar " + (fileObj.progress === 100 && 'complete')}  style={{
                                         width: `${fileObj.progress}%`,
-                                        backgroundColor: fileObj.progress === 100 ? "green" : "#D0E2FF",
+                                        backgroundColor: fileObj.progress === 100 ? "#D0E2FF" : "#D0E2FF",
                                     }}>
                                     </div> 
                                 <div className="caption-area">
