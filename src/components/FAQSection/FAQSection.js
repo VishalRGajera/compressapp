@@ -5,21 +5,19 @@ const FAQSection = ({ faqs }) => {
     return (
         <div className="faq-section">
             <div className="text-center">
-                <div className="faq-header">
-                    <span>FAQs</span> About Our Compress Video Tool
+                <div className="title-row">
+                   <h2><span>FAQs</span> About Our Compress Video Tool</h2>
                 </div>
             </div>
-            <div className="row gap-sm">
+            <div className="flex faq-wrap">
                 {faqs.map((faq, index) => (
-                    <div className="image-box col-md-6" key={index}>
-                        <div className="faq-box">
-                            <div className="faq-title">
-                                <h4>{faq.question}</h4>
-                            </div>
-                            <div className="faq-text">
-                                <p>{faq.answer}</p>
-                            </div>
+                    <div className="faq-box" key={index}>
+                        <div className="faq-title">
+                            <h4>{faq.question}</h4>
                         </div>
+                        <div className="faq-text">
+                            <p>{faq.answer}</p>
+                        </div>                
                     </div>
                 ))}
             </div>

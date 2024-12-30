@@ -1,9 +1,5 @@
 /* Variables */
-$primary-color: #007bff;
-$text-color: #333;
-$secondary-color: #555;
-$box-shadow-color: rgba(0, 0, 0, 0.1);
-
+@import '/src/scss/variable.scss'; 
 @mixin mob($breakpoint: 768px) {
     @media (max-width: #{$breakpoint}) {
         @content;
@@ -23,72 +19,32 @@ $box-shadow-color: rgba(0, 0, 0, 0.1);
         margin-bottom: 22px;
     }
 
-    .icon-box {
-        background-color: #fff;
-        border-radius: 8px;
-        padding: 20px;
-        box-shadow: 0 4px 8px $box-shadow-color;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        min-height: 230px;
-
-        @include mob {
-            padding: 10px;
-            min-height: 166px;
+    .icon-box { background-color: #fff; border-radius: 8px; padding:20px; box-shadow: 0 4px 8px $box-shadow-color; transition: transform 0.3s ease, box-shadow 0.3s ease; min-height: 230px;text-align: center;
+        display: flex; flex-direction: column;
+        @include mob { padding: 10px; min-height: 166px;
+        }
+        &:hover { transform: translateY(-5px); box-shadow: 0 8px 16px $box-shadow-color;
+        }
+        img {margin: 0 auto; flex: 1; max-width: 80px; height: auto; min-height: 105px; transform: scale(.7);
+        }
+        h3 { font-size: 22px; font-family: $f-HelveticaNeue; margin: 0 0 10px;
+            @include mob { font-size: 18px; margin: 4px 0; }
         }
 
-        &:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 16px $box-shadow-color;
-        }
-
-        img {
-            max-width: 80px;
-            height: auto;
-        }
-
-        h3 {
-            font-size: 20px;
-            margin: 15px 0 10px;
-
-            @include mob {
-                font-size: 18px;
-                margin: 4px 0;
-            }
-        }
-
-        p {
-            font-size: 18px;
-            color: $secondary-color;
-            margin: 0;
-
-            @include mob {
-                font-size: 14px;
-                line-height: 18px;
-            }
+        p { font-size: 18px; color: $secondary-color; margin: 0;
+            @include mob { font-size: 14px; line-height: 18px; }
         }
     }
 }
 
 /* Spacing for Grid */
-.row {
-    display: flex;
-    flex-wrap: wrap;
+.row { display: flex; flex-wrap: wrap;
     // gap: 20px;
 }
 
-.col-md-4 {
-    flex: 1 1 calc(33.33% - 20px);
-}
-
-// .col-sm-6 {
-//     flex: 1 1 calc(50% - 20px);
-// }
+.col-md-4 { flex: 1 1 calc(33.33% - 20px); }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .col-md-4 {
-        flex: 1 1 calc(50% - 20px);
-    }
+    .col-md-4 { flex: 1 1 calc(50% - 20px); }
 }
-
-// @media (max-width: 576px) {.icon-section

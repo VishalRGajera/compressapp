@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./ImageSlider.scss";
 
 const images = [
-    { src: "./images/Slider_Image_One.png", alt: "Image 1" },
-    { src: "./images/Slider_Image_Two.png", alt: "Image 2" },
-    { src: "./images/Slider_Image_Three.png", alt: "Image 3" },
+    { src: "./images/Slider_Image_one.png", alt: "Image 1" },
+    { src: "./images/Slider_Image_two.png", alt: "Image 2" },
+    { src: "./images/Slider_Image_three.png", alt: "Image 3" },
 ];
 
 const ImageSlider = () => {

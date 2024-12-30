@@ -7,9 +7,9 @@ export default function Layout({ children }) {
   const addStyle = {
     backgroundColor: '#f0f0f0',
     color: '#333',
-    padding: '15px 0',
+    padding: '0',
     textAlign: 'center',
-    width: '120px',
+    width: '160px',
     height: '600px',
   };
   return (
@@ -17,10 +17,10 @@ export default function Layout({ children }) {
       <Header />
       <main id='content-area' className='flex'>
         <div className='container'>
-          <div className='add-block' style={addStyle}>add section</div>
+          <iframe style={addStyle} src="https://www.healthyads.com/wp-content/webp-express/webp-images/uploads/2019/01/160x600-skyscraper-fitibit.jpg.webp"></iframe>
           <div className='content-area'>{children}</div>
-          <div className='add-block' style={addStyle}>add section</div>
-        </div>
+          <iframe className='add-block' style={addStyle} src="https://www.healthyads.com/wp-content/webp-express/webp-images/uploads/2019/01/160x600-skyscraper-fitibit.jpg.webp"></iframe>
+          </div>
       </main>
       <Footer />
     </div>

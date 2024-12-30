@@ -8,7 +8,7 @@ const InfoSection = () => {
                 {/* First Item */}
                 <div className="image-box">
                     <img
-                        src="./images/Group 8894.png"
+                        src="/images/JPG.png"
                         alt="What is JPG? Info"
                         className="img-fluid setimg"
                     />
@@ -32,7 +32,7 @@ const InfoSection = () => {
                 </div>
                 <div className="image-box">
                     <img
-                        src="./images/png.png"
+                        src="/images/png.png"
                         alt="What is PNG? Info"
                         className="img-fluid setimg"
                     />
@@ -41,7 +41,7 @@ const InfoSection = () => {
                 {/* Third Item */}
                 <div className="image-box">
                     <img
-                        src="./images/Group 8935.png"
+                        src="/images/doc.png"
                         alt="What is DOC? Info"
                         className="img-fluid setimg"
                     />
@@ -64,7 +64,7 @@ const InfoSection = () => {
                 </div>
                 <div className="image-box">
                     <img
-                        src="./images/Group 8918.png"
+                        src="/images/pdf.png"
                         alt="What is PDF? Info"
                         className="img-fluid setimg"
                     />

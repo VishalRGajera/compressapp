@@ -20,7 +20,7 @@ const Header = () => {
           </button>
           <nav className={`main-nav ${isMenuOpen ? "show" : ""}`}>
             <ul>
-              <li>
+              <li className="active">
                 <Link to="/image">Image</Link>
               </li>
               <li>
