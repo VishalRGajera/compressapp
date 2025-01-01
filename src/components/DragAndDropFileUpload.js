@@ -147,7 +147,7 @@ const DragAndDropFileUpload = () => {
                                     <div>
                                         
                                     {fileObj.progress === 100 ? (
-                                        <p style={{ marginLeft: "10px" }}>Downloaded</p>
+                                        <p style={{ marginLeft: "10px" }}>Downloaded </p>
                                     ) : (
                                         <p>
                                             {fileObj.progress}% |{" "}

@@ -28,11 +28,11 @@
         img {margin: 0 auto; flex: 1; max-width: 80px; height: auto; min-height: 105px; transform: scale(.7);
         }
         h3 { font-size: 22px; font-family: $f-HelveticaNeue; margin: 0 0 10px;
-            @include mob { font-size: 18px; margin: 4px 0; }
+            @include mob { font-size: 20px; margin: 4px 0; }
         }
 
         p { font-size: 18px; color: $secondary-color; margin: 0;
-            @include mob { font-size: 14px; line-height: 18px; }
+            
         }
     }
 }
@@ -46,5 +46,5 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .col-md-4 { flex: 1 1 calc(50% - 20px); }
+    .col-md-4 { flex: 1 1 calc(100% - 20px); }
 }
