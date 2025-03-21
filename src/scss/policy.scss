@@ -131,7 +131,8 @@
     max-height: 500px;
     object-fit: cover;
     object-position: top;
-    border-radius: 30px;
+    border-radius:0 0 20px 20px;
+    border-top: 5px solid #007bff;
 }
 
 .Pcontant {

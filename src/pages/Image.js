@@ -37,7 +37,42 @@ const Image = () => {
     <>
       <Banner message="Image" />
       <DragAndDropFileUpload />
+      
       <div className="block-row">
+      <div className="info-section">
+          {/* Third Item */}
+         {/* First Item */}
+         <div className="image-box">
+                    <img
+                        src="/images/JPG.png"
+                        alt="What is JPG? Info"
+                        className="img-fluid setimg"
+                    />
+                </div>
+                <div className="image-box image-box-one">
+                    <h5>What is JPG?</h5>
+                    <p>
+                        A JPG (or JPEG) is a commonly used digital image file
+                        format that stands for Joint Photographic Experts Group, the
+                        organization that created the standard. It is widely used.
+                        JPEG can achieve compression ratios of 10:1 to 20:1 without
+                        noticeable loss in quality for typical use cases.
+                    </p>
+                </div>
+                 {/* Second Item */}
+                 <div className="image-box">
+                    <h5>What is PNG?</h5>
+                    <p>
+                        PNG is a lossless image format that supports transparency
+                        and is widely used for web graphics.PNG files are ‘lossless.’ 
+                        This means they have a fixed number of pixels, and do not 
+                        lose any quality when they are compressed.PNG files are smaller 
+                        than JPEGs, meaning they take up less space and download faster.
+                        
+    
+                    </p>
+                </div>
+              </div>
        <div className="difference">
         <div  className="title-row">
           <h2 className="mb-4 text-left">Can anyone tell the difference?</h2>

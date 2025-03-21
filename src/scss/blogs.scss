@@ -63,11 +63,17 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-flow: column;
-    gap: 12px;
+    gap: 30px;
 }
 
 .contentBox .content1 {
     position: relative;
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    p{font-weight: 400;margin:0 auto;padding-top: 10px;
+      b{font-weight: 700;display: block;}
+    }
 }
 
 .contentBox .content1 img {
@@ -131,7 +137,8 @@
     max-height: 500px;
     object-fit: cover;
     object-position: top;
-    border-radius: 30px;
+    border-radius:0 0 30px 30px;
+    border-top: 5px solid #007bff;
 }
 
 .Pcontant {
@@ -140,7 +147,7 @@
     display: grid;
     gap: 8px;
     h2{font-size: 24px; font-family: $f-tahomabold;}
-    p{
+    p{margin: 0 auto 10px;font-weight: 400; padding-left: 0;
         small{color: #767676;}
     }
 }
@@ -196,6 +203,12 @@
     }
 }
 /* about  Styles */
+.about-banner{ margin: 0 auto; max-width: 100%; background-position: right top; max-width: 100%; background-size: 100% auto;  padding: 40px 380px 40px 40px; border-radius: 15px; background-repeat: no-repeat;
+  background-color: rgb(64,190,220);
+  h1{color: #fff; text-align: left; margin:0 0 20px;}
+  p{color: #fff; text-align: left;font-size: 18px;font-weight: 400; margin: 0 auto;}
+
+}
 .about {
     padding: 50px 20px;
     max-width: 1280px;
@@ -212,9 +225,7 @@
         font-weight: 700;
       }
     }
-    .banner{ margin: 0 auto; max-width: 100%;
-      h1{}
-    }
+    
     .card-row{display: flex; flex-wrap: wrap;
       .card{max-width: 50%; width: 50%; padding: 0 15px 30px;
         h2{font-weight: 600; margin-bottom: 10px;font-size: 24px;}
@@ -488,7 +499,6 @@ body {
   
   .Pcontant p{
 text-align: left;
-padding-left: 10px;
 padding-right: 10px;
 
   }
@@ -511,8 +521,32 @@ padding-right: 10px;
     .img-area{max-width: 100%; margin: 0 auto;}  
   }
   .contact-content .contact-info{padding: 10px 0;}
+  .about-banner{ padding: 20px 30px 30px; background: rgb(64,190,220); background: radial-gradient(circle, rgba(64,190,220,1) 0%, rgba(40,148,183,1) 100%); 
+    h1{font-size: 26px;margin-bottom: 10px;}
+    p{font-size: 16px;}
+  }
+  .about .card-row{flex-wrap: wrap;
+    .card{width: 100%; max-width: 420px; padding: 0 0 20px;
+      h2{font-size: 20px; margin:0 auto 10px;}
+      p{font-size: 16px; line-height: 26px; margin: 0 auto 10px;}
+    }
+  }
+  .about {
+    .why-us{max-width: 100%;flex-wrap: wrap;
+      .caption-area,figure{width: 100%; max-width: 100%;}
+      .caption-area{
+        .features-list {padding-left: 40px;}
+      }
+    }
+     blockquote{padding: 15px;margin-top: 40px;}
+  }
+
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .contact-content .contact-info{padding: 10px 20px;}
   .img-area{max-width: 48%;}
+  .about-banner{ padding: 20px 240px 30px 30px;
+    h1{font-size: 26px;margin-bottom: 10px;}
+    p{font-size: 16px;}
+  }
 }

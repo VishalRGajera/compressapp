@@ -69,13 +69,10 @@ const Blog = () => {
         <section className="panel">
           <img src="/images/Slider_Image_one.png" alt="" />
           <div className="Pcontant">
-            <div className="Pcontant_user">
-              
-              <div>
-               
-              </div>
-            </div>
             <h2>Dubai Miracle Garden</h2>
+            <div className="Pcontant_user">              
+               Admin - July 2024
+            </div>
             <p>Dubai Miracle Garden is a stunning floral paradise and one of the most beautiful attractions in Dubai.
                It's the world’s largest natural flower garden, featuring over 150 million flowers arranged in breathtaking 
                designs, including heart-shaped pathways,castles,pyramids, and even a life-size .The garden transforms 

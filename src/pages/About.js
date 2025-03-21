@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 const About = () => {
   return (
     <>
-      <div className="banner">
+      <div className="about-banner"  style={{ backgroundImage: "url(/images/about-us-bg.jpg)" }}>
         <h1>About Compressvideo</h1>
-        <p>Compressvideo is the only free online service to compress Video, PNG, JPEG and Document files. Our desktop and server solutions are loved by over 2 million customers in 149 countries.<br /> For over a decade we have been consistently improving the file compressor engine that sits at the heart of all our business solutions. We're thrilled to now be able to share it with you all through Compressvideo.</p> 
+        <p>Compressvideo is the only free online service to compress Video, PNG, JPEG and Document files. Our desktop and server solutions are loved by over 2 million customers in 149 countries. For over a decade we have been consistently improving the file compressor engine that sits at the heart of all our business solutions. We're thrilled to now be able to share it with you all through Compressvideo.</p> 
       </div>
     <div className="about">
 

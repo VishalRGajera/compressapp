@@ -38,30 +38,48 @@ const Document = () => {
       <Banner message="Document" />
       <DragAndDropFileUpload />
       <div className="block-row">
+      <div className="info-section">
+          {/* Third Item */}
+          <div className="image-box">
+                    <img
+                        src="/images/doc.png"
+                        alt="What is DOC? Info"
+                        className="img-fluid setimg"
+                    />
+                </div>
+                <div className="image-box image-box-five">
+                    <h5>What is DOC?</h5>
+                    <p>
+                        A DOC file is a Microsoft Word document commonly used for
+                        creating and editing text documents.many diffrent uses of document
+                        like Supports text styling, such as bold, italics, underlining, and
+                        font customization.also Allows for structured documents with headings tables.
+                    </p>
+                </div>
+          </div>
        <div className="difference">
         <div  className="title-row">
           <h2 className="mb-4 text-left">Can anyone tell the difference?</h2>
           <p className="text-left"> Excellent question! Let me give you a side-by-side comparison. Below are two photos of my cousin. The left image is saved as a 24-bit PNG directly from Adobe Photoshop. On the right is the same image processed by TinyPNG. Spot any difference? </p>
-        </div>
-        
+        </div>        
         <div className="comparison-container row">
           <div className="col-md-6 text-center image-div">
             <img
-              src="/images/Difference_photo.png"
+              src="/images/doc.jpg"
               alt="Original image"
               className="img-fluid rounded"
             />
-            <h4>Original image</h4>
-            <p>Size: 152MB</p>
+            <h4>Original Documents</h4>
+            <p>Size: 30MB</p>
           </div>
           <div className="col-md-6 text-center image-div">
             <img
-              src="/images/Difference_photo.png"
+              src="/images/doc.jpg"
               alt="Compressed image"
               className="img-fluid rounded"
             />
-            <h4 className="text-right">Compressed image</h4>
-            <p className="text-right">Size: 80MB</p>
+            <h4 className="text-right">Compressed Documents</h4>
+            <p className="text-right">Size: 18MB</p>
           </div>
         </div>
        </div>

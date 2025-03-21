@@ -71,7 +71,7 @@ const Pdf = () => {
               alt="Original image"
               className="img-fluid rounded"
             />
-            <h4>Original image</h4>
+            <h4>Original Pdf</h4>
             <p>Size: 152MB</p>
           </div>
           <div className="col-md-6 text-center image-div">
@@ -80,7 +80,7 @@ const Pdf = () => {
               alt="Compressed image"
               className="img-fluid rounded"
             />
-            <h4 className="text-right">Compressed image</h4>
+            <h4 className="text-right">Compressed Pdf</h4>
             <p className="text-right">Size: 80MB</p>
           </div>
         </div>

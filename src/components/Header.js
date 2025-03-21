@@ -23,9 +23,6 @@ const Header = () => {
           </button>
           <nav className={`main-nav ${isMenuOpen ? "show" : ""}`}>
             <ul>
-              <li className={location.pathname === "/about" ? "active" : ""}>
-                <Link onClick={toggleMenu} to="/about">About Us</Link>
-              </li>
               <li className={location.pathname === "/" ? "active" : ""}>
                 <Link onClick={toggleMenu} to="/image">Image</Link>
               </li>
@@ -37,6 +34,9 @@ const Header = () => {
               </li>
               <li className={location.pathname === "/document" ? "active" : ""}>
                 <Link onClick={toggleMenu} to="/document">Doc</Link>
+              </li>
+              <li className={location.pathname === "/about" ? "active" : ""}>
+                <Link onClick={toggleMenu} to="/about">About Us</Link>
               </li>
               <li className={location.pathname === "/blog" ? "active" : ""}>
                 <Link onClick={toggleMenu} to="/blog">Blog</Link>
