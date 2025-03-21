@@ -62,7 +62,7 @@ const Pdf = () => {
        <div className="difference">
         <div  className="title-row">
           <h2 className="mb-4 text-left">Can anyone tell the difference In Pdf ?</h2>
-          <p className="text-left"> Excellent question! Let me give you a side-by-side comparison. Below are two photos of my cousin. The left image is saved as a PDF directly from Google. On the right is the same image processed by Compressvideo. Spot any difference? </p>
+          <p className="text-left"> Excellent question! Let me give you a side-by-side comparison. Below are two photos of my cousin. The left image is saved as a PDF directly from Google. On the right is the same Pdf image processed by Compressvideo. Spot any difference? </p>
         </div>
         <div className="comparison-container row">
           <div className="col-md-6 text-center image-div">

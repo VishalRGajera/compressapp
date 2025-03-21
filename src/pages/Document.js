@@ -60,7 +60,7 @@ const Document = () => {
        <div className="difference">
         <div  className="title-row">
           <h2 className="mb-4 text-left">Can anyone tell the difference?</h2>
-          <p className="text-left"> Excellent question! Let me give you a side-by-side comparison. Below are two photos of my cousin. The left image is saved as a 24-bit PNG directly from Adobe Photoshop. On the right is the same image processed by TinyPNG. Spot any difference? </p>
+          <p className="text-left"> Excellent question! Let me give you a side-by-side comparison. Below are two photos of my cousin. The left image is saved as a Doc directly from Ms Office. On the right is the same image Doc processed by CompressVideo. Spot any difference? </p>
         </div>        
         <div className="comparison-container row">
           <div className="col-md-6 text-center image-div">
