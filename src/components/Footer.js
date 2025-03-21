@@ -13,7 +13,7 @@ export default function Footer() {
           <div className='address-block'>
             <p>
               <img src="/images/locate.png" alt="" />
-            <span> 446,Leonard Square, Nr.Apple Square, Yogi Chowk, Surat, Gujarat 395010</span>
+            <span> 44C Apple Park, Nr.Janson Road, Banglore 560004</span>
             </p>
             <p><img src="images/email.png" alt="" />
               <span> <Link href="mainto:samratapps007@gmail.com">samratapps007@gmail.com</Link></span>
@@ -24,16 +24,17 @@ export default function Footer() {
           <h4>Useful link</h4>
           <ul className='link-area'>
               <li>
-                <Link rel="" type="" href="">Home</Link>
+                
+              <Link rel="" type="" to="/image" data-discover="true">Home</Link>
               </li>
               <li>
-                <Link rel="" type="" href="">About us</Link>
+                <Link rel="" type="" to="about">About us</Link>
               </li>
               <li>
-                <Link rel="" type="" href="">Contact us</Link>
+                <Link rel="" type="" to="Contact">Contact us</Link>
               </li>
               <li>
-                <Link rel="" type="" href="">Policy</Link>
+                <Link rel="" type="" to="policy">Policy</Link>
               </li>
             </ul>
             </div>
@@ -43,16 +44,19 @@ export default function Footer() {
               </h4>
             <ul className='link-area'>
             <li>
-                <Link rel="" type="" href="">Image</Link>
+                <Link rel=""  to="/image" data-discover="true">Image</Link>
               </li>
               <li>
-                <Link rel="" type="" href="">Video</Link>
+                {/* <Link to="/video" rel="/video" type="/video" to="/video">Video</Link> */}
+                <Link rel=""  to="/video" data-discover="true">Video</Link>
               </li>
               <li>
-                <Link rel="" type="" href="">Pdf</Link>
+                {/* <Link rel="" type="" to="/pdf">Pdf</Link> */}
+                <Link rel=""  to="/pdf" data-discover="true">Pdf</Link>
               </li>
               <li>
-                <Link rel="" type="" href="">Document</Link>
+                {/* <Link rel="" type="" to="/document">Document</Link> */}
+                <Link rel=""  to="/document" data-discover="true">Document</Link>
               </li>
             </ul>
         </div> 

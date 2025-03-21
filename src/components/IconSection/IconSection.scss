@@ -19,7 +19,7 @@
         margin-bottom: 22px;
     }
 
-    .icon-box { background-color: #fff; border-radius: 8px; padding:20px; box-shadow: 0 4px 8px $box-shadow-color; transition: transform 0.3s ease, box-shadow 0.3s ease; min-height: 230px;text-align: center;
+    .icon-box { background-color: #fff; border-radius: 22px; padding:20px; box-shadow: 0 4px 8px $box-shadow-color; transition: transform 0.3s ease, box-shadow 0.3s ease; min-height: 230px;text-align: center;
         display: flex; flex-direction: column;
         @include mob { padding: 10px; min-height: 166px;
         }

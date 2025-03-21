@@ -13,6 +13,9 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="header-content">
+          <div className="logo">
+            <Link to="/"><img src="/images/logo.png" alt="CompressVideo" /></Link>
+          </div>
           <button className="hamburger" onClick={toggleMenu}>
             <div className={`line ${isMenuOpen ? "open" : ""}`}></div>
             <div className={`line ${isMenuOpen ? "open" : ""}`}></div>
@@ -20,20 +23,26 @@ const Header = () => {
           </button>
           <nav className={`main-nav ${isMenuOpen ? "show" : ""}`}>
             <ul>
+              <li className={location.pathname === "/about" ? "active" : ""}>
+                <Link onClick={toggleMenu} to="/about">About Us</Link>
+              </li>
               <li className={location.pathname === "/" ? "active" : ""}>
-                <Link to="/image">Image</Link>
+                <Link onClick={toggleMenu} to="/image">Image</Link>
               </li>
               <li className={location.pathname === "/video" ? "active" : ""}>
-                <Link to="/video">Video</Link>
+                <Link onClick={toggleMenu} to="/video">Video</Link>
               </li>
               <li className={location.pathname === "/pdf" ? "active" : ""}>
-                <Link to="/pdf">Pdf</Link>
+                <Link onClick={toggleMenu} to="/pdf">Pdf</Link>
               </li>
               <li className={location.pathname === "/document" ? "active" : ""}>
-                <Link to="/document">Document</Link>
+                <Link onClick={toggleMenu} to="/document">Doc</Link>
               </li>
               <li className={location.pathname === "/blog" ? "active" : ""}>
-                <Link to="/blog">Blog</Link>
+                <Link onClick={toggleMenu} to="/blog">Blog</Link>
+              </li>
+              <li className={location.pathname === "/Contact" ? "active" : ""}>
+                <Link onClick={toggleMenu} to="/Contact">Contact</Link>
               </li>
             </ul>
           </nav>

@@ -101,6 +101,7 @@
 
     .contentBox .content1 {
         margin-bottom: 15px;
+        b{text-align: center;}
     }
 
     .contentBox .content1 button {
@@ -193,4 +194,325 @@
         width: 50px;
         height: 50px;
     }
+}
+/* about  Styles */
+.about {
+    padding: 50px 20px;
+    max-width: 1280px;
+    width: 100%;
+    background: rgba(255,255,255,.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 50px auto;
+    h2{font-weight: 600;}
+    p{font-weight: 400;
+      strong{
+        color: #007bff;
+        font-weight: 700;
+      }
+    }
+    .banner{ margin: 0 auto; max-width: 100%;
+      h1{}
+    }
+    .card-row{display: flex; flex-wrap: wrap;
+      .card{max-width: 50%; width: 50%; padding: 0 15px 30px;
+        h2{font-weight: 600; margin-bottom: 10px;font-size: 24px;}
+        p{font-size: 18px; line-height: 28px;}
+      }
+    }
+    .title-row{margin-bottom: 60px;
+      h2{font-size: 28px;font-weight: 700;color: #444}
+    }
+    .why-us{ justify-content: space-between;
+      figure{max-width: 40%;}
+      .caption-area{ max-width: 50%;
+        ul{padding-left: 50px;
+          li{display: block;font-size: 18px;
+            &:before{content: '✓';display: inline-block; text-indent: -25px;}
+          }
+        }
+      }
+    }
+
+    blockquote{border-left: 5px solid #007bff; padding: 40px; box-shadow: 2px 2px 8px rgba(0, 0, 0,.2); margin-top: 70px;}
+}
+.Contact {
+    padding: 50px 20px;
+    max-width: 900px;
+    width: 90%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 50px auto;
+}
+
+
+/* Headings */
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #222;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #444;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Brand Name Styling */
+
+
+/* Features List */
+.features-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+
+    li {
+        font-size: 18px;
+        padding: 8px 0;
+        display: flex;
+        align-items: left;
+        gap: 10px;
+        justify-content: left;
+    }
+}
+
+/* Thank You Section */
+
+p {
+    font-weight: bold;
+    color: rgb(41, 41, 41);
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 { font-size: 30px; }
+    h2 { font-size: 24px; }
+    h3 { font-size: 20px; }
+    .features-list li { font-size: 16px; }
+}
+
+/* policy css*/
+.policy-container {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .policy-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .policy-intro {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    font-size: 1.6rem;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .policy-link {
+    color: #007bff;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .advertisers-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 20px;
+  }
+  
+  .advertisers-list li {
+    margin-bottom: 10px;
+  }
+  .contact-container {
+  text-align: center;
+  font-family: "Sans-serif";
+  background-color: #eee;
+
+  .img-area{ max-width: 55%;}
+
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+.contact-info {
+  justify-content: space-evenly;
+  max-width: fit-content;
+  margin: auto;
+}
+
+.contact-card {
+  flex: 1;
+  margin: 16px;
+  text-align: center;
+}
+
+.contact-card img {
+  height: 80px;
+  width: 70px;
+}
+
+.thank-you {
+  color: #2155CD;
+  font-weight: bold;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+//
+
+body {
+    text-align: center;
+  }
+  
+  .contact-container {
+    margin: auto;
+  }
+  
+  .contact-content {
+
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: flex-start;
+    margin-bottom: 60px;
+    .contact-info{margin: 0; padding: 0; padding: 30px 50px;
+    }
+  }
+  
+  .contact-info {
+    flex: 1;
+    text-align: left;
+    
+    .title-row{margin-bottom: 30px;
+      p{color: #767676; line-height: normal;}
+    }
+    .contact-card{ margin: 0 auto;
+      p{display: flex; align-items: flex-start;margin-bottom: 30px; font-weight: 400; 
+        strong{font-weight: 400;}
+        img{max-width: 45px; display: block;height: auto; padding-right: 15px; margin-top: -5px;}
+        a{color: #222;}
+      }
+    }
+  }
+  
+  .contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .contact-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .detail-card {
+    flex: 1;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .detail-card h3 {
+    margin-bottom: 10px;
+  }
+
+  .detail-card p {
+    margin-bottom: 10px;
+  }
+  
+  .Pcontant p{
+text-align: left;
+padding-left: 10px;
+padding-right: 10px;
+
+  }
+  
+  
+.stay-connected{ padding: 60px 0 0; max-width: 520px; margin: 0 auto;
+  h2{text-align: center;}
+  p{color: rgba(0, 0, 0,.7); word-break:break-word;
+    font-size: 20px;
+    margin-top: 28px;text-align: center;
+  }
+  .btn{display: inline-block;
+    &:hover{color: $white; opacity: .9;}
+  }
+  .thank-you:last-child{padding-top: 30px;}
+}
+
+@media screen and (max-width: 767px){
+  .contact-content{flex-wrap: wrap;display: block;
+    .img-area{max-width: 100%; margin: 0 auto;}  
+  }
+  .contact-content .contact-info{padding: 10px 0;}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .contact-content .contact-info{padding: 10px 20px;}
+  .img-area{max-width: 48%;}
 }

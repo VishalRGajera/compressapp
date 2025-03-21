@@ -7,6 +7,9 @@ import Video from './pages/Video';
 import Pdf from './pages/Pdf';
 import Document from './pages/Document';
 import Blog from './pages/Blog';
+import About from './pages/About';
+import Policy from './pages/Policy';
+import Contact from './pages/Contact';
 
 export default function App() {
   return (
@@ -18,6 +21,9 @@ export default function App() {
           <Route path="/pdf" element={<Pdf />} />
           <Route path="/document" element={<Document />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/policy" element={<Policy />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Layout>

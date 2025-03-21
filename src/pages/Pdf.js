@@ -38,16 +38,36 @@ const Pdf = () => {
       <Banner message="Pdf" />
       <DragAndDropFileUpload />
       <div className="block-row">
+        <div className="info-section">
+          {/* Fourth Item */}
+          <div className="image-box">
+              <h2>What is PDF?</h2>
+              <p>
+                  PDF stands for "Portable Document Format" PDF documents 
+                  can be opened and read exactly how the document creator
+                  intended PDF is a file format used to present documents 
+                  independent of software, hardware, or operating systems.
+                  main advantages of PDF file is the maintain original
+                  document structure.
+              </p>
+          </div>
+          <div className="image-box">
+              <img
+                  src="/images/pdf.png"
+                  alt="What is PDF? Info"
+                  className="img-fluid setimg"
+              />
+          </div>
+          </div>
        <div className="difference">
         <div  className="title-row">
-          <h2 className="mb-4 text-left">Can anyone tell the difference?</h2>
-          <p className="text-left"> Excellent question! Let me give you a side-by-side comparison. Below are two photos of my cousin. The left image is saved as a 24-bit PNG directly from Adobe Photoshop. On the right is the same image processed by TinyPNG. Spot any difference? </p>
+          <h2 className="mb-4 text-left">Can anyone tell the difference In Pdf ?</h2>
+          <p className="text-left"> Excellent question! Let me give you a side-by-side comparison. Below are two photos of my cousin. The left image is saved as a PDF directly from Google. On the right is the same image processed by Compressvideo. Spot any difference? </p>
         </div>
-        
         <div className="comparison-container row">
           <div className="col-md-6 text-center image-div">
             <img
-              src="/images/Difference_photo.png"
+              src="/images/pdf.jpg"
               alt="Original image"
               className="img-fluid rounded"
             />
@@ -56,7 +76,7 @@ const Pdf = () => {
           </div>
           <div className="col-md-6 text-center image-div">
             <img
-              src="/images/Difference_photo.png"
+              src="/images/pdf.jpg"
               alt="Compressed image"
               className="img-fluid rounded"
             />
@@ -66,6 +86,7 @@ const Pdf = () => {
         </div>
        </div>
       </div>
+
 
       <IconSection />
 

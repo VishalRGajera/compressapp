@@ -17,9 +17,9 @@ export default function Layout({ children }) {
       <Header />
       <main id='content-area' className='flex'>
         <div className='container'>
-          <iframe  className='add-block' style={addStyle} src="https://www.healthyads.com/wp-content/webp-express/webp-images/uploads/2019/01/160x600-skyscraper-fitibit.jpg.webp"></iframe>
+          {}
           <div className='content-area'>{children}</div>
-          <iframe className='add-block' style={addStyle} src="https://www.healthyads.com/wp-content/webp-express/webp-images/uploads/2019/01/160x600-skyscraper-fitibit.jpg.webp"></iframe>
+          {}
           </div>
       </main>
       <Footer />
