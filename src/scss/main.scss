@@ -30,6 +30,17 @@
     h2 {font-size:25px; font-weight:bolder; color:$light-black-2; font-family:$f-HelveticaNeue; line-height:32px; @include mob {font-size:24px;}}
     p {font-size:22px; font-weight:400; font-family:$f-HelveticaNeue; color:$light-black; padding-bottom:15px; line-height:28px; @include mob {font-size:18px; line-height:26px;}}
 }
+.blog-banner{min-height: 280px; background-position: right  top;display: flex; align-items: center; margin-bottom: 40px;
+    .title-row{padding-left: 50px; padding-right: 150px; text-align: left; max-width: 100%;
+        h1{color: #fff;}
+    }
+}
+.blog-details {
+    .Pcontant{text-align: left;}
+    .panel{margin-bottom: 40px;
+        p{font-weight: 400;text-align: left;}
+    }
+}
 .container{
     .container{padding-left: 0;padding-right: 0;}
 }
