@@ -10,20 +10,19 @@ export default function Banner() {
         return 'Pdf';
       case '/document':
         return 'Document';
-      case '/video':
-        return 'Video';
+      case '/image':
+        return 'Image';
       case '/':
       default:
-        return 'Image';
+        return 'Video';
     }
   };
 
   return (
     <>
       <div className="banner">
-      <h1>Compress <span>{getMessage(location.pathname)}</span></h1>
-      <p>Compress photos , videos, pdfs and doc files online for free.
-      maintaining high quality</p>
+      <h1>Compress <span>{getMessage(location.pathname)}</span></h1>      
+      <p>Compress {getMessage(location.pathname)} files online for easier sharing, faster uploads, and more efficient storage—all without losing quality. Oh, and it's free to try.</p>
     </div>
     </>
   );

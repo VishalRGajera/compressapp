@@ -24,10 +24,10 @@ const Header = () => {
           <nav className={`main-nav ${isMenuOpen ? "show" : ""}`}>
             <ul>
               <li className={location.pathname === "/" ? "active" : ""}>
-                <Link onClick={toggleMenu} to="/image">Image</Link>
-              </li>
-              <li className={location.pathname === "/video" ? "active" : ""}>
                 <Link onClick={toggleMenu} to="/video">Video</Link>
+              </li>
+              <li className={location.pathname === "/image" ? "active" : ""}>
+                <Link onClick={toggleMenu} to="/image">Image</Link>
               </li>
               <li className={location.pathname === "/pdf" ? "active" : ""}>
                 <Link onClick={toggleMenu} to="/pdf">Pdf</Link>

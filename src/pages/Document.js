@@ -57,6 +57,25 @@ const Document = () => {
                     </p>
                 </div>
           </div>
+          
+          <div className="block-row">
+          <div className="title-row text-center">
+          <h1>How to compress document files</h1>
+            <h3>World's best video compressor to compress MP4, AVI, MKV, or any other video file. Choose the default options to compress video size by 40%, or choose a custom size.</h3>
+            </div>
+            <div className="flex how-to-area">
+              <figure>
+                <img src="/images/how-to.png" alt="" />
+              </figure>
+            <div className="caption-area">
+              <ul className="list-style">
+                <li>Upload document files to compress them online for free.</li>
+                <li>Specify the parameters and press the "COMPRESS" button to compress document.</li>
+                <li>Download the compressed document to view instantly or send a link to email.</li>
+              </ul>
+            </div>
+          </div>
+      </div>
        <div className="difference">
         <div  className="title-row">
           <h2 className="mb-4 text-left">Can anyone tell the difference?</h2>

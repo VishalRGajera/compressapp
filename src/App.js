@@ -16,8 +16,8 @@ export default function App() {
     <Router>
       <Layout>
         <Routes>
-          <Route path="/" element={<Image />} />
-          <Route path="/video" element={<Video />} />
+          <Route path="/" element={<Video />} />
+          <Route path="/image" element={<Image />} />
           <Route path="/pdf" element={<Pdf />} />
           <Route path="/document" element={<Document />} />
           <Route path="/blog" element={<Blog />} />
