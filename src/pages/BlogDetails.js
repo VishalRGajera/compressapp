@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 const blogPosts = [
   { 
     title: "Burj Khalifa", 
     slug: "Burj-Khalifa", 
+    image: "/images/khalifa.jpg",
     content: `
      <section class="content">
       <div>
@@ -58,10 +59,10 @@ const blogPosts = [
   },
   { 
     title: "Dubai Miracle Garden", 
-    slug: "Dubai-Miracle-Garden", 
+    slug: "Dubai-Miracle-Garden",
+    image: "/images/Slider_Image_one.png", 
     content: `
      <section class="panel">
-      <img src="/images/Slider_Image_one.png" alt="" />
       <div class="Pcontant">
         <h2>Dubai Miracle Garden</h2>
         <div class="Pcontant_user">              
@@ -99,9 +100,9 @@ The stunning 'floating lady’ dressed in exotic blooms is a must-see too, as we
   { 
     title: "Dubai Aquarium and Underwater Zoo", 
     slug: "Dubai-Aquarium-and-Underwater-Zoo", 
+    image: "/images/Slider_Image_two.png",
     content: `
      <section class="panel">
-      <img src="/images/Slider_Image_two.png" alt="" />
       <div class="Pcontant">
         <div class="Pcontant_user">
       
@@ -123,9 +124,9 @@ The stunning 'floating lady’ dressed in exotic blooms is a must-see too, as we
   { 
     title: "DESERT SAFARI", 
     slug: "desert-safari", 
+    image: "/images/Slider_Image_three.png",
     content: `
        <section class="panel">
-      <img src="/images/Slider_Image_three.png" alt="" />
       <div class="Pcontant">
         
         <h2>DESERT SAFARI</h2>
@@ -169,14 +170,23 @@ The stunning 'floating lady’ dressed in exotic blooms is a must-see too, as we
 ];
 
 export default function BlogDetails() {
-  const { title } = useParams();
+  const { title, image } = useParams();
   const blog = blogPosts.find((post) => post.slug === title);
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+
+  }, [title]);
+  
 
   if (!blog) return <h2>Blog post not found</h2>;
 
+
   return (
     <div className="blog-details">
-      <div className="blog-banner" style={{ backgroundImage: "url(/images/blog-banner.png)" }}>
+      <div className="blog-banner">
+        <figure>
+          <img src={blog.image} alt="" />
+        </figure>
         <div className="title-row">
           <h1>{blog.title}</h1>
         </div>
