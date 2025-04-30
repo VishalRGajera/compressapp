@@ -58,6 +58,10 @@ export default function Footer() {
                 {/* <Link rel="" type="" to="/document">Document</Link> */}
                 <Link rel=""  to="/document" data-discover="true">Document</Link>
               </li>
+              <li>
+                {/* <Link rel="" type="" to="/document">Document</Link> */}
+                <Link rel=""  to="/Disclaimer" data-discover="true">Disclaimer</Link>
+              </li>
             </ul>
         </div> 
         </div> 
