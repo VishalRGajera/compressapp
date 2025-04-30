@@ -11,6 +11,7 @@ import BlogDetails from "./pages/BlogDetails";
 import About from './pages/About';
 import Policy from './pages/Policy';
 import Contact from './pages/Contact';
+import Disclaimer from './pages/Disclaimer';
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/policy" element={<Policy />} />
+          <Route path="/disclaimer" element={<Disclaimer />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Layout>
