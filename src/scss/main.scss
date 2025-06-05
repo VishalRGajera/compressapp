@@ -43,11 +43,19 @@
         }
     }
 }
+.blog-details .panel .b-details-cont{
+    ol{margin: 0;
+        li{list-style: disc; margin-left: 20px;}
+    }
+    p{text-align: left; width: 100%;
+        strong:first-child{margin-bottom: -10px; display: block;}
+    }
+}
 .blog-details {
     .Pcontant{text-align: left;}
     .panel{margin-bottom: 40px;
         @include mob { padding: 10px 0px 20px 0px;margin-bottom: 20px;}
-            p{font-weight: 400;text-align: left;}
+            p{font-weight: 400;text-align: left;word-break: auto-phrase;}
         }
     }
 .container{

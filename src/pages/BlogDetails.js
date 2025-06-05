@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 const blogPosts = [
   {title: "Why Use Video Compression Tools for Your Needs?", 
-    slug: "Why-Use-Video", 
+    slug: "why-use-compressvideo-tool", 
     image: "/images//blog-why.png",
     content: `
     <section class="panel">
@@ -32,11 +32,11 @@ const blogPosts = [
 `},
 {
     title: "Top 10 Free Online Video Compressors in the Digital Era", 
-    slug: "Top-10-Era", 
+    slug: "top-10-free-online-video-compressor-in-digital-era", 
     image: "/images//blog-how-to.png",
     content: `
       <section class="panel">
-    <div class="Pcontant">
+    <div class="Pcontant b-details-cont">
 
       <h2>Top 10 Free Online Video Compressors in the Digital Era</h2>
 
@@ -46,7 +46,8 @@ const blogPosts = [
       <p>Let’s explore the top 10 free online video compressors that are redefining the way we manage and share videos in this digital era.</p>
 
       <h2>1. CompressVideo.in</h2>
-      <p><strong>Fast, free, and no watermark</strong> — This rising tool stands out for its simplicity and lightning-fast compression.</p>
+      <p><strong>Fast, free, and no watermark</strong></p>
+      <p> — This rising tool stands out for its simplicity and lightning-fast compression.</p>
       <ol>
         <li>Drag-and-drop interface</li>
         <li>Retains HD quality</li>
@@ -56,7 +57,8 @@ const blogPosts = [
       </ol>
 
       <h2>2. VEED.IO</h2>
-      <p><strong>Edit and compress in one place</strong> — VEED.IO is more than a compressor; it’s a full creative suite.</p>
+      <p><strong>Edit and compress in one place</strong></p>
+      <p> — VEED.IO is more than a compressor; it’s a full creative suite.</p>
       <ol>
         <li>Video trimming, subtitles, filters</li>
         <li>Compress by resolution or size</li>
@@ -65,7 +67,8 @@ const blogPosts = [
       </ol>
 
       <h2>3. Clideo</h2>
-      <p><strong>All-in-one multimedia tool</strong> — Clideo’s intuitive platform makes video compression effortless.</p>
+      <p><strong>All-in-one multimedia tool</strong> </p>
+      <p>— Clideo’s intuitive platform makes video compression effortless.</p>
       <ol>
         <li>Easy to use</li>
         <li>Works on all browsers and devices</li>
@@ -74,7 +77,8 @@ const blogPosts = [
       </ol>
 
       <h2>4. FreeConvert</h2>
-      <p><strong>Smart compression with format support</strong> — Handles large files (up to 1GB) and converts across 60+ formats.</p>
+      <p><strong>Smart compression with format support</strong></p>
+      <p> — Handles large files (up to 1GB) and converts across 60+ formats.</p>
       <ol>
         <li>Preset quality options</li>
         <li>Control output size</li>
@@ -83,7 +87,8 @@ const blogPosts = [
       </ol>
 
       <h2>5. Media.io (Wondershare)</h2>
-      <p><strong>Cross-platform & cloud-based</strong> — Supports seamless compression across PC and mobile.</p>
+      <p><strong>Cross-platform & cloud-based</strong></p>
+      <p> — Supports seamless compression across PC and mobile.</p>
       <ol>
         <li>Intelligent compression engine</li>
         <li>Clean, ad-free UI</li>
@@ -92,7 +97,8 @@ const blogPosts = [
       </ol>
 
       <h2>6. OnlineConverter</h2>
-      <p><strong>Simple and no-frills</strong> — Perfect for those looking for basic, no-login compression.</p>
+      <p><strong>Simple and no-frills</strong></p>
+      <p> — Perfect for those looking for basic, no-login compression.</p>
       <ol>
         <li>Fast upload</li>
         <li>Lightweight tool</li>
@@ -101,7 +107,8 @@ const blogPosts = [
       </ol>
 
       <h2>7. Kapwing</h2>
-      <p><strong>Compress, collaborate, and create</strong> — Built for creators who work in teams or remotely.</p>
+      <p><strong>Compress, collaborate, and create</strong></p>
+      <p> — Built for creators who work in teams or remotely.</p>
       <ol>
         <li>Video editing + compression in one</li>
         <li>Cloud-based workspace</li>
@@ -110,7 +117,8 @@ const blogPosts = [
       </ol>
 
       <h2>8. XConvert</h2>
-      <p><strong>Advanced features for power users</strong> — Ideal for users who want deeper control over compression.</p>
+      <p><strong>Advanced features for power users</strong></p>
+      <p> — Ideal for users who want deeper control over compression.</p>
       <ol>
         <li>Adjust bitrate, resolution, framerate</li>
         <li>Batch compression</li>
@@ -119,7 +127,8 @@ const blogPosts = [
       </ol>
 
       <h2>9. VideoSmaller</h2>
-      <p><strong>Quick and bandwidth-friendly</strong> — Designed for low-spec users and mobile optimization.</p>
+      <p><strong>Quick and bandwidth-friendly</strong></p>
+      <p> — Designed for low-spec users and mobile optimization.</p>
       <ol>
         <li>Compress up to 500MB</li>
         <li>Option to remove audio</li>
@@ -128,7 +137,8 @@ const blogPosts = [
       </ol>
 
       <h2>10. PS2PDF</h2>
-      <p><strong>Multi-functional converter + compressor</strong> — A hybrid platform offering multiple file tools.</p>
+      <p><strong>Multi-functional converter + compressor</strong></p>
+      <p> — A hybrid platform offering multiple file tools.</p>
       <ol>
         <li>Compress by percentage</li>
         <li>Resize resolution</li>
