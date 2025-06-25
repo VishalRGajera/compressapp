@@ -731,6 +731,51 @@ The stunning 'floating lady’ dressed in exotic blooms is a must-see too, as we
     </div>
   </section>
   `
+},
+{  title: "DESERT SAFARI", 
+    slug: "desert-safari", 
+    image: "/images/Slider_Image_three.png",
+    content: `
+       <section class="panel">
+      <div class="Pcontant">
+        
+        <h2>DESERT SAFARI</h2>
+
+          <p>
+           A Desert Safari in Dubai is an exhilarating experience that lets you explore 
+          the beauty of the Arabian Desert.If you're looking for a low-cost outing,  
+          The Desert Safari offers an evening trip to the desert that includes dune 
+          driving, camel rides, welcome drinks, a barbecue dinner, entertainment and more.</p>
+
+         <h2>Types of Desert Safari Tours</h2> 
+
+         <p>Morning Desert Safari:
+         For those with a busy schedule, the morning desert safari is an excellent option. This adventure-packed tour includes 
+         approximately 20 minutes of thrilling dune bashing, followed by an exciting camp experience where you can enjoy quad 
+         biking, a camel ride, and sand skiing. The duration of the morning safari varies depending on the package, with most 
+         tours lasting around two hours. It is an ideal choice for those who prefer a shorter trip without dinner and overnight
+        camping.<br></br></p>
+
+        <p>Evening Desert Safari:
+        An evening desert safari is a must-do experience for visitors looking to create unforgettable memories. The journey begins
+        in the afternoon, with a stop at a camel farm before heading into the vast desert. Witness the breathtaking sunset over 
+        the dunes, enjoy camel rides, and try your hand at sandboarding. At the campsite, immerse yourself in cultural activities 
+        such as henna painting and traditional performances. Relish a delicious barbecue dinner, relax with shisha, and be entertained
+        by a mesmerizing belly dance performance set to Arabic tunes.</p>
+
+        <p>Overnight Desert Safari:
+        For an extraordinary experience, the overnight desert safari offers the perfect blend of adventure and tranquility. Capture 
+        stunning photographs of the starlit desert and wake up to a mesmerizing sunrise over the dunes. Enjoy various activities, 
+        including henna painting, traditional costume dress-ups, and camel rides. After a delectable dinner, unwind under the serene
+        desert sky, listening to the whispering winds. For those who love entertainment, live belly dance performances add to the 
+        charm of the night. Before heading to bed, make sure to have sleeping bags and blankets for a comfortable stay.</p>
+
+
+
+
+      </div>
+    </section>
+    `
 }
 
 
