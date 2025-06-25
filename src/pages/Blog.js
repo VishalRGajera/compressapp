@@ -25,6 +25,18 @@ const blogPosts = [
     content: "Slow-loading videos harm UX, SEO, and mobile compatibility. Compressing videos before uploading ensures faster load times, better engagement, and smooth performance across devices. CompressVideo.in is the go-to tool for this."
   },
   {
+    title: "How Video Compression Affects Quality – And How to Balance It Smartly",
+    slug: "how-video-compression-affects-quality",
+    image: "/images/blog-quality-vs-size.png",
+    content: "Video compression reduces file size by adjusting resolution, bitrate, and codec. Done smartly, it preserves visual quality while enabling faster uploads, smoother playback, and easier sharing. CompressVideo.in helps strike the perfect balance effortlessly."
+  },
+  {
+    title: "Why Compressing Videos Before Upload Can Save You Time & Data",
+    slug: "why-compressing-before-upload-saves-time-data",
+    image: "/images/blog-upload-speed.png",
+    content: "Compressing videos before uploading reduces file size, speeds up uploads, saves bandwidth, and improves mobile performance. Whether you're a creator, teacher, or business owner, CompressVideo.in helps you share faster and more efficiently—without sacrificing quality."
+  },
+  {
     title: "Email Too Large? Here’s How to Compress and Send Video Attachments Easily",
     slug: "how-to-compress-and-send-video-attachments",
     image: "/images/blog-email.png",
